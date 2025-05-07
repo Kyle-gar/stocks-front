@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import SignalHistory from "./SignalHistory";
 
 const API_URL = "https://stocks-back.onrender.com"; // Replace with your backend URL
 
