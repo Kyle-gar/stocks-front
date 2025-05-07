@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = "https://YOUR_BACKEND_URL.onrender.com/signal"; // Replace with your backend URL
+const API_URL = "https://stocks-back.onrender.com"; // Replace with your backend URL
 
 function SignalDashboard({ ticker, account, risk }) {
   const [signal, setSignal] = useState(null);
